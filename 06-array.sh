@@ -1,7 +1,12 @@
 #!/bin/bash
 
-read -s USERNAME
+MOVIES=("RRR" "DjTillu" "murari")
 
-read -s PASSWORD
+# size of above array is 3.
+# index are 0,1,2
 
-echo "Username is: $USERNAME, Password is: $PASSWORD"
+# list always starts with 0.
+
+echo "First Movie is: ${MOVIES[0]}"
+echo "First Movie is: ${MOVIES[1]}"
+echo "First Movie is: ${MOVIES[@]}"
