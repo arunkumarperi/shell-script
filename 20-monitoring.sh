@@ -14,5 +14,3 @@ echo "cpu usage :$CPU"
 
 sleep 5
 done
-
-
